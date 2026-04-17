@@ -93,3 +93,6 @@ QUERY — поисковый запрос
 PAGES — количество страниц
 CONCURRENT_REQUESTS — уровень параллелизма
 MIN_RATING, MAX_PRICE, COUNTRY — параметры фильтрации
+
+
+Ссылка на ТЗ: https://docs.google.com/document/d/1eD6om-kZag15XL1mHBqkI50oBYy3Szh0jXZqd3NS37Q/edit?tab=t.0
