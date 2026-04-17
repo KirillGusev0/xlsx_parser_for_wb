@@ -1,0 +1,20 @@
+version: "3.9"
+
+services:
+  wb_parser:
+    build:
+      context: .
+      dockerfile: Dockerfile
+
+    container_name: wb_parser_app
+
+    command: python main.py
+
+    volumes:
+      - ./data:/app/data
+      - .:/app
+
+    environment:
+      - PYTHONUNBUFFERED=1
+
+    restart: "no"
