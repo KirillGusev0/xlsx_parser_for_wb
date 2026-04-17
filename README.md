@@ -50,7 +50,7 @@
 ## Локальный запуск:
 
 ```bash
-git clone 
+git clone https://github.com/KirillGusev0/xlsx_parser_for_wb.git
 cd xlxs_parser_wb
 
 python3 -m venv venv
